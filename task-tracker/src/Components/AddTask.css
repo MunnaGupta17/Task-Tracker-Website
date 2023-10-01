@@ -52,8 +52,8 @@
 }
 
 .AddTaskFrom select{
-    width: 300px;
-    height: 30px;
+    width: 315px;
+    height: 37px;
     border-radius: 5px;
     border: 1px solid #080808;
     padding-left: 10px;
@@ -89,3 +89,4 @@
     }
 
 }
+

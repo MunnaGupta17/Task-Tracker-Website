@@ -122,11 +122,20 @@ const TasksList = () => {
               onChange={(e) => setEditTask({ ...editTask, description: e.target.value })}
             />
             <label>Status:</label>
-            <input
+            {/* <input
               type="text"
               value={editTask.status}
               onChange={(e) => setEditTask({ ...editTask, status: e.target.value })}
-            />
+            /> */}
+            <select
+            id="status"
+            name="status"
+            value={editTask.status}
+            onChange={(e) => setEditTask({ ...editTask, status: e.target.value })}
+          >
+            <option value="IN_PROGRESS">In Progress</option>
+            <option value="DONE">Done</option>
+          </select>
             <button onClick={() => handleSaveEdit(editTask)}>Save</button>
             <button onClick={() => setEditTask(null)}>Cancel</button>
           </div>

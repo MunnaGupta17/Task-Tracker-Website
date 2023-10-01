@@ -140,16 +140,31 @@
   
   /* Modal labels and input fields */
   .modal-content label {
+    font-size: 1.2rem;
     font-weight: bold;
     display: block;
     margin-top: 10px;
   }
   
   .modal-content input {
-    width: 100%;
+    width: 90%;
+    height: 20px;
+    font-size: 17px;
+    font-weight: medium;
     padding: 8px;
     margin: 6px 0;
-    border: 1px solid #ccc;
+    border: 2px solid #0b0b0b;
+    border-radius: 3px;
+  }
+
+  .modal-content select{
+    width: 95%;
+    height: 40px;
+    font-size: 17px;
+    font-weight: medium;
+    padding: 8px;
+    margin: 6px 0;
+    border: 2px solid #0b0b0b;
     border-radius: 3px;
   }
   
