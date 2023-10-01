@@ -1,0 +1,91 @@
+.addTaskButton{
+    background-color: #080808;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    &:hover{
+        background-color: #0471f6;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+.AddTaskFrom{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.AddTaskFrom label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.AddTaskFrom input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #080808;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    &:focus{
+        outline: none;
+    }
+}
+
+.AddTaskFrom select{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #080808;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    &:focus{
+        outline: none;
+    }
+}
+
+.AddTaskFrom button{
+    background-color: #080808;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    &:hover{
+        background-color: #0471f6;
+    }
+    &:focus{
+        outline: none;
+    }
+
+}
