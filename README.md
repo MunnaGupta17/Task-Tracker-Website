@@ -10,6 +10,7 @@ This is a task tracker website built with React. It allows users to manage their
 - Add new tasks with titles, descriptions, and status selection.
 - Edit existing tasks, updating titles, descriptions, and statuses.
 - Delete tasks from the list.
+- it is a Responsive Website.
 
 ## Demo
 
