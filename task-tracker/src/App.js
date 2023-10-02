@@ -25,19 +25,17 @@ function App() {
         return response.json();
       })
       .then((data) => {
-        console.log("Task added successfully:", data);
+        alert("Task added successfully");
+        window.location.reload();
+        // console.log("Task added successfully:", data);
 
         // Update the local state with the newly added task
         setTasks([...tasks, data]);
 
-        // Clear the form fields (if needed)
-        // setTask({
-        //   title: "",
-        //   description: "",
-        //   status: "IN_PROGRESS",
-        // });
+
       })
       .catch((error) => {
+        alert("Error adding task");
         console.error("Error adding task:", error);
       });
   };
