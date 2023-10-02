@@ -13,7 +13,7 @@ This is a task tracker website built with React. It allows users to manage their
 
 ## Demo
 
-You can see a live demo of the website [here]([insert-live-demo-link](https://munnagupta17.github.io/Task-Tracker-Website/)).
+You can see a live demo of the website [here](https://munnagupta17.github.io/Task-Tracker-Website/).
 
 ## Installation
 
