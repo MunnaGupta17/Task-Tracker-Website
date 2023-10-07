@@ -25,11 +25,6 @@ const AddTask = ({ onAddTask }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Check for empty fields before adding the task
-    if (!task.title.trim() || !task.description.trim()) {
-        alert("Please fill in all fields.");
-        return;
-      }
     onAddTask(task);
     setTask({
       title: "",
@@ -61,6 +56,7 @@ const AddTask = ({ onAddTask }) => {
             name="description"
             value={task.description}
             onChange={handleInputChange}
+            required
           />
 
           <label htmlFor="status">Status:</label>
